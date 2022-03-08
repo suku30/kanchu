@@ -1,0 +1,34 @@
+package Com.Basic.Program;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Alertdemo {
+	public static void main(String[] args) throws Throwable {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Jagan\\eclipse-workspace\\Selenium Testing\\Driver\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("http://demo.automationtesting.in/Alerts.html");
+		Thread.sleep(2000);
+		WebElement findElement = driver.findElement(By.xpath("//button[@class='btn btn-danger']"));
+		findElement.click();
+		Alert a = driver.switchTo().alert();
+		a.accept();
+		
+		WebElement findElement2 = driver.findElement(By.linkText("Alert with OK "));
+		findElement2.click();
+		
+		WebElement findElement3 = driver.findElement(By.xpath("(//a[@class='analystic'])[2])"));
+		findElement3.click();
+		
+		Alert a1 = driver.switchTo().alert();
+		a1.accept();
+		
+		
+		
+		
+	}
+
+}

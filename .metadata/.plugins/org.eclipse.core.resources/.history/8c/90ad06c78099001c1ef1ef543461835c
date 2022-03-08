@@ -1,0 +1,30 @@
+package Maven.TestNg;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+
+public class SimpleAnnotation {
+	
+	@BeforeSuite
+	private void test() {
+		System.out.println("Before TestNG");
+
+	}
+	@BeforeSuite
+	private void test1() {
+		System.out.println("Before SUITE");
+
+	}
+	@BeforeClass
+	private void test2() {
+		System.out.println("Before Class");
+
+	}
+	@BeforeMethod
+	private void test3() {
+		System.out.println("Before Method");
+
+	}
+
+}

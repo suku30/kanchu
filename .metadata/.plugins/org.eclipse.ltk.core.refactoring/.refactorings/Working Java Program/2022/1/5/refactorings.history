@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;If.Package.java&apos; to &apos;A.java&apos;&#x0D;&#x0A;- Original project: &apos;Working Java Program&apos;&#x0D;&#x0A;- Original element: &apos;If.Package.java&apos;&#x0D;&#x0A;- Renamed element: &apos;If.A.java&apos;" description="Rename compilation unit &apos;Package.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;If{Package.java" name="A.java" references="false" stamp="1642953283878" version="1.0"/>
+</session>

@@ -1,0 +1,12 @@
+package Maven.TestNg;
+
+import org.testng.annotations.BeforeSuite;
+
+public class SimpleAnnPro {
+	@BeforeSuite
+	private void chrome() {
+		System.out.println("C:\\Users\\Jagan\\eclipse-workspace\\Selenium Testing\\Driver\\chromedriver_win32\\chromedriver.exe");
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package Maven.TestNg;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class PriorityPro {
+	public static WebDriver driver;
+	@Test
+	private void chrome() {
+	System.setProperty("webdriver.chrome.driver", 
+			"C:\\Users\\Jagan\\eclipse-workspace\\Selenium Testing\\Driver\\chromedriver_win32\\chromedriver.exe");
+
+	driver=new ChromeDriver();
+	
+	
+	}
+	private void url() {
+		driver.get("https://www.flipkart.com/");
+		
+
+	}
+	
+
+}

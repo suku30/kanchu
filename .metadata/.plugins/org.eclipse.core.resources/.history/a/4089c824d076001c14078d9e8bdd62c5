@@ -1,0 +1,22 @@
+package com.controlstatement.pro;
+
+public class Return {
+	private int add(int a, int b) {
+	return a+b;
+
+	}
+	public static void main(String[] args) {
+		Return k=new Return();
+		System.out.println("the summation value is="+k.add(52, 78));
+		int a=10;
+		while (a<=5) {
+			System.out.println(a);
+			a++;
+			continue;
+			
+		}
+		
+	}
+	
+
+}

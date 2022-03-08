@@ -1,0 +1,28 @@
+package Maven.TestNg;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+
+public static Webdriver driver;
+public class SimpleAnnPro {
+	@BeforeSuite
+	private void chrome() {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Jagan\\eclipse-workspace\\Selenium Testing\\Driver\\chromedriver_win32\\chromedriver.exe");
+	}
+	@BeforeTest
+	private void driver() {
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://www.amazon.in/");
+
+	}
+	private void search() {
+		
+	
+
+	}
+	
+
+
+}

@@ -1,0 +1,30 @@
+package com.controlstatement.pro;
+
+public class Variable {
+	static int a=52;
+	public static int c(int a, int b) {
+		return a+b;
+		
+	}
+		
+	
+	static {
+		System.out.println("my name");
+	}
+	static {
+		System.out.println("kanchana");
+	}
+	public static void main(String[] args) {
+		int a=5;
+		int b=2;
+		int c=a+b;
+		System.out.println(c);
+		
+	}
+	public void add() {
+		// TODO Auto-generated method stub
+		int c;
+
+	}
+
+}
